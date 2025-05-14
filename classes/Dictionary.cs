@@ -14,19 +14,19 @@ namespace EnglishHelperApp.classes
 
         public Dictionary() { }
 
-        public void SetTagName(string tagName)
-        {
-            this.TagName = tagName;
-        }
-
-        public string GetTagName()
-        {
-            return this.TagName;
-        }
-
         public List<Word> GetDictionary()
         {
             return Words;
+        }
+
+        public void AddWord(Word word)
+        {
+            Words.Add(word);
+        }
+
+        public bool IsEmtpy()
+        {
+            return Words.Count == 0;
         }
 
     }

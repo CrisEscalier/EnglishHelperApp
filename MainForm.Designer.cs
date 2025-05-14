@@ -1080,6 +1080,7 @@ namespace EnglishHelperApp
         }
 
         private PhonemeChart phonemeChart;
+        private Dictionary dictionary = new Dictionary();
 
         #endregion
         private Panel slidePanel;

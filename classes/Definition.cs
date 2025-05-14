@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnglishHelperApp.classes
 {
-    internal class Definition
+    public class Definition
     {
         private string Pronunciation { get; set; }
         private string WordDefinition { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EnglishHelperApp.classes
 {
-    internal class Word
+    public class Word
     {
         private string TagName { get; set; }
         private bool Countable { get; set; }

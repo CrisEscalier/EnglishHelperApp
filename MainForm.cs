@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EnglishHelperApp.classes;
 
 namespace EnglishHelperApp
 {
@@ -166,5 +167,9 @@ namespace EnglishHelperApp
             PureVowelPanel.Visible = false;
             ConsonantPanel.Visible = true;
         }
+
+        
+        
+        
     }
 }
